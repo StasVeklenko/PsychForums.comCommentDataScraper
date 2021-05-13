@@ -1,7 +1,7 @@
 # PsychForums.comCommentDataScraper
 This is the script I wrote for a client when freelancing on Upwork.com. He actually needed comments from Psychforums.com and several other websites similar to it.
 
-This script searches for word "vegetarian" (2 other words were "Omega 3" and "ketogenic") on https://www.psychforums.com/bipolar/ forum (it uses the search box in the middle to search only the Bipolar Disorder forum, not the search box on the left for the whole forum) and copies every comment that is shown in search results into a "Psychforums vegetarian.doc" file. I have uploaded the resulting doc file. The file can be updated easily to scraoe for all 3 keywords at once. 
+This script searches for word "vegetarian" (2 other words were "Omega 3" and "ketogenic") on https://www.psychforums.com/bipolar/ forum (it uses the search box in the middle to search only the Bipolar Disorder forum, not the search box on the left for the whole forum) and copies every comment that is shown in search results into a "Psychforums vegetarian.doc" file. I have uploaded the resulting doc file. The script can be updated easily to scrape for all 3 keywords at once. 
 
 A few extra things required for psychforums_script.py to make sure it works besides installing the libraries imported in the script:
 1) Download chromedriver.exe from https://chromedriver.chromium.org/ and put it somewhere. 
