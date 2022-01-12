@@ -6,4 +6,4 @@ This script searches for word "vegetarian" (2 other words were "Omega 3" and "ke
 A few extra things required for psychforums_script.py to make sure it works besides installing the libraries imported in the script:
 1) Download chromedriver.exe from https://chromedriver.chromium.org/ and put it somewhere. 
 2) Create a my-paths.pth file in local/global site-packages folder and add to it the full path to chromedriver.exe (without "chromedriver.exe" at the end - i.e. full folder path), or just update the .pth with this path if it (.pth file) already exists. This will update PATH env var with chromedriver.exe path. 
-3) Browser and Page classes are imported from Browser.py and Page.py in Projects/CustomClasses/, so if you want to import from somewhere else change "import ..." lines in the script accordingly and/or update PATH as in 2).     
+3) Browser and Page classes are imported from Browser.py and Page.py in Projects/CustomClasses/, so if you want to import from somewhere else change "import ..." lines in the script accordingly and/or update PATH as in 2.     
